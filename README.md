@@ -27,3 +27,6 @@
 
 
 This game is written in C. I wish to make this as an App with a few tweaks to be able to play across multiple devices over the internet.
+
+### Future plan
+Another attempt to optimize the code and the display: `blocked.c`. The code is not yet complete. 
