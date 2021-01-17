@@ -10,8 +10,9 @@
  ```
  
  ### How to play
-1. Its a multiplayer game (upto 6 players) with square grid play ground where each player has his own unique color (for my console game I used different symbols for each player like `*`, `#`, `$`, `&`). Like this.
-![Screenshot 1](images/chainreaction1.png) ![Screenshot 2](images/chainreaction2.png) 
+1. Its a multiplayer game (upto 6 players) with square grid play ground where each player has his own unique color (for my console game I used different symbols for each player like `*`, `#`, `$`, `&`) like this.
+
+![Screenshot 1](images/chainreaction1.png) ![Screenshot 2](images/chainreaction2.png)
 
 2. The 4 corner cells has a capablity to hold max 1 element, edge cells (edges x length - corners i.e. `4*10-4=36` cells) have capablity to hold max 2 elements and all the other cells can have 3 elements max. One cell can con contain only same type of elements (i.e. all `@` or all `#` or all `*`).
 
@@ -23,10 +24,10 @@
 
 6. After each move this Bursting and galloping continues in chain till the whole grid reaches stability. When there is only one color (in my game symbol) present in the grid the owner of that color wins the game. 
 
-
-
-
 This game is written in C. I wish to make this as an App with a few tweaks to be able to play across multiple devices over the internet.
 
+
 ### Future plan
-Another attempt to optimize the code and the display: `blocked.c`. The code is not yet complete. 
+
+1. Another attempt to optimize the code and the display : `blocked.c`. The code is not yet complete.
+2. Create Dynamic grid size and add animation.
