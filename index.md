@@ -30,5 +30,10 @@ This game is written in C. I wish to make this as an App with a few tweaks to be
 6. After each move this Bursting and galloping continues in chain till the whole grid reaches stability. When there is only one color (in my game symbol) present in the grid the owner of that color wins the game.
 
 ### Future plan
+1. Add animation.
+2. Add dynamic grid size.
+3. Add multiplayer option.
+
+
 Another attempt to optimize the code and the display: `blocked.c`. The code is not yet complete. 
 
