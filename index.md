@@ -18,8 +18,8 @@ This game is written in C. I wish to make this as an App with a few tweaks to be
 
 1. Its a multiplayer game (upto 6 players) with square grid play ground where each player has his own unique color (for my console game I used different symbols for each player like `*`, `#`, `$`, `&`). Like this.
 
-       ![Screenshot 1](https://raw.githubusercontent.com/riteshpzs12/ChainReaction/main/images/chainreaction1.png) 
-       ![Screenshot 2](https://raw.githubusercontent.com/riteshpzs12/ChainReaction/main/images/chainreaction2.png) 
+      ![Screenshot 1](https://raw.githubusercontent.com/riteshpzs12/ChainReaction/main/images/chainreaction1.png) 
+      ![Screenshot 2](https://raw.githubusercontent.com/riteshpzs12/ChainReaction/main/images/chainreaction2.png) 
 
 2. The 4 corner cells has a capablity to hold max 1 element, edge cells (edges x length - corners i.e. `4*10-4=36` cells) have capablity to hold max 2 elements and all the other cells can have 3 elements max. One cell can con contain only same type of elements (i.e. all `@` or all `#` or all `*`).
 
